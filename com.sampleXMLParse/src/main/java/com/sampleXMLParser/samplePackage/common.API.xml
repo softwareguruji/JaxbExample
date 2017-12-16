@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:rep="internal" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:jcrfn="http://www.jcp.org/jcr/xpath-functions/1.0" xmlns:fn_old="http://www.w3.org/2004/10/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mgnl="http://www.magnolia.info/jcr/mgnl" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" sv:name="PianosControllerAPI">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:contentNode</sv:value>
+  </sv:property>
+  <sv:node sv:name="CLIENT-API">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="API_HOST" sv:type="String">
+      <sv:value>http://9.us-east-1.elasticbeanstalk.com</sv:value>
+    </sv:property>
+       <sv:property sv:name="ROOT_CONTROLLER" sv:type="String">
+      <sv:value>/load/</sv:value>
+    </sv:property>
+     <sv:property sv:name="END_USER" sv:type="String">
+     <sv:value>op</sv:value>
+    </sv:property>
+    <sv:property sv:name="END_USER_PASSWORD" sv:type="String">
+     <sv:value>np</sv:value>
+    </sv:property>
+  </sv:node>
+
+  <sv:node sv:name="ADMIN-API">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="API_HOST" sv:type="String">
+      <sv:value>http://9.us-east-1.elasticbeanstalk.com</sv:value>
+    </sv:property>
+       <sv:property sv:name="ROOT_CONTROLLER" sv:type="String">
+      <sv:value>/control/</sv:value>
+    </sv:property>
+     <sv:property sv:name="ADMIN_USER" sv:type="String">
+     <sv:value>npo</sv:value>
+    </sv:property>
+    <sv:property sv:name="ADMIN_USER_PASSWORD" sv:type="String">
+     <sv:value>npb</sv:value>
+    </sv:property>
+    <sv:property sv:name="ASSET_ROOT_CONTROLLER" sv:type="String">
+     <sv:value>/as</sv:value>
+    </sv:property>
+  </sv:node>
+
+</sv:node>

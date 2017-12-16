@@ -1,0 +1,6 @@
+parsing a schema...
+compiling a schema...
+org\tempuri\purchaseorderschema\ObjectFactory.java
+org\tempuri\purchaseorderschema\PurchaseOrderType.java
+org\tempuri\purchaseorderschema\USAddress.java
+org\tempuri\purchaseorderschema\package-info.java
